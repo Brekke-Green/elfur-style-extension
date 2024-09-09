@@ -1,10 +1,10 @@
-elfur Style Chrome extension
+# elfur Style Chrome Extension
 
-Available themes:
-    Relaxing
-    Energizing
+### Available themes 
+Relaxing,
+Energizing
 
-Available commands:
-    `make install`
-    `make build`
-    `make dev`
+#### Available commands:
+`make install`
+`make build`
+`make dev`
