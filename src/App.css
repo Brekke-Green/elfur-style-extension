@@ -1,6 +1,8 @@
 body {
   background-color: rgb(34, 238, 91);
   color: black;
+  min-width: none !important;
+  min-height: none;
 }
 
 #hudButton {
@@ -11,20 +13,31 @@ div {
     font-family: Poppins;
 }
 
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
+  margin-bottom: 10px;
   padding: 2rem;
   text-align: center;
+} */
+
+#root {
+  margin: 1rem 0;
+  padding: 0 4rem;
+}
+
+#popupContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .headerContainer {
-    display: flex;
     padding-bottom: 15px;
 }
 
 #popupLogo {
-    width: 40px;
+    width: 50px;
     border-radius: 50%;
 }
 
@@ -99,6 +112,12 @@ input:checked + .slider:before {
     font-family: Poppins;
     font-size: 14px;
     color: #AEAEAE;
+    margin: 5px;
+}
+
+.styleButton:active {
+  background-color: #fdeb46;
+  color: black
 }
 
 
@@ -206,8 +225,8 @@ input:checked + .slider:before {
 
 .theme-list {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
 #popupNav {

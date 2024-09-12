@@ -28,15 +28,13 @@ const styleEnergizing = async () => {
 
   return (
     <>
-        <div className='headerContainer'><img src='images/logo.png' id='popupLogo'/>
-          <div> elfur </div>
-          <div> SAFE HAVEN FOR THE WORKFORCE</div>
-        </div>
-        <div>THEME SETTINGS</div>
+      <div id='popupContainer'>
+        <div className='headerContainer'><img src='images/logo.png' id='popupLogo'/></div>
         <div className='theme-list'>
             <button className='styleButton' onClick={styleRelaxing}>Relaxing</button>
             <button className='styleButton' onClick={styleEnergizing}>Energizing</button>
         </div>
+      </div>
     </>
   )
 }
