@@ -120,6 +120,10 @@ input:checked + .slider:before {
   color: black
 }
 
+.selected {
+  background-color: #fdeb46;
+  color: black
+}
 
 .toggle-button-cover {
   position: relative;
